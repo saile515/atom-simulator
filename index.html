@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Hello World!</title>
+		<!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+		<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+		<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+
+		<style>
+			body {
+				margin: 0px;
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="canvas"></canvas>
+
+		<script src="./dist/renderer.js"></script>
+	</body>
+</html>
